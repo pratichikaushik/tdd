@@ -11,6 +11,8 @@ public class PasswordValidator {
     validationResult.setRes(true);
     List<String> validationErrors = new ArrayList<>();
 
+    //define the validation rules here 
+
     validationResult.setValidationErrors(String.join(",", validationErrors));
     return validationResult;
   }
